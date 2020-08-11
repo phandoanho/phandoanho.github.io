@@ -1,0 +1,195 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*---Reset css---*/
+#ngoai{
+	width: 100%;
+	height: 1080px;
+	background-image: url(../img/canh-dep-nhat-ban-5.jpg)
+}
+.container{
+	margin: 0 auto;
+	padding: 0px 10px 10px 10px;
+	width: 1000px;
+	height: 1070px;
+	background: #FFFFFF;
+}
+/*------------------------------*/
+.header{
+	width: 1000px;
+	height: 150px;
+	background: #555555;
+	padding-bottom: 2px;
+}
+.header-main{
+	width: 1000px;
+	height: 100px;
+	background:#FCFF77;
+	transition-duration: 5s;
+}
+.header-main img{
+	float: left;
+	height: 150px;
+}
+	.chu{
+		float: left;
+		width: 130px;
+		height: 50px;
+/*		background: #E28688;*/
+		margin: 20px 0 0 250px 
+	}
+	.header-main .chu h1{
+		font-family: 'Sriracha', cursive;
+		color: #3E2708;
+}
+.menu{
+	width: 1000px;
+	height: 50px;
+	background: #3E2708;
+	border: thick #C5585A 30%;
+}
+.menu nav ul{
+	list-style: none;
+}
+.menu nav ul li{
+	float: left;
+	margin-left: 100px;
+	width: auto;
+	height: 25px;
+/*	background: #0E2089;*/
+	text-align: center;
+	margin-top: 13px;
+	line-height: 25px;
+	transition-duration: 5s;
+}
+.menu nav ul li a{
+	text-decoration: none;
+	color: aliceblue;
+	font-family: 'Sriracha', cursive;
+	font-size: 18px;
+	transition-duration: 0.75s;
+	
+}
+.menu nav ul li a:hover{
+	color: aqua;
+	background: #E2538D;
+	border-radius: 20Px;
+	border: 2px dashed black;
+}
+
+/*______________________________*/
+.content{
+	width: 960px;
+	height: 800px;
+	background: #F3F1C4;
+	padding: 20px 20px 0px 20px;
+}
+.content h1 {
+	font-family: 'Chilanka', cursive;
+	margin-left: 500px;
+	transition-duration: 15s;
+}
+.video{
+	width: 30px;
+	height: 20px;
+	background: #F3F1C4;
+	float: left;
+}
+.video a{
+	text-decoration: none;
+	color: #7DE8E6;
+	width: 320px;
+	line-height: 190px;
+	font-size: 180px;
+	transition-duration: 3s;
+	
+}
+.video a:hover{
+	color: #EEB9BD;
+	background: #AD4B4D;
+	border-radius: 35%;
+	margin-left: 50px;
+}
+.content p{
+	text-align: justify;
+	margin-left: 300px;
+}
+.nhac{
+	width: 700px;height: 400px;
+/*	background: #C370D8;*/
+	margin: 30px 80px;
+	padding: 50px;
+	}
+.vui{
+	width: 200px;
+	height: 200px;
+/*	background: #1CEA0F;*/
+}
+.o1{
+	width: 200px;
+	height: 410px;
+	
+	float: left;
+}
+
+.o1 .vui img{
+	width: 200px;
+	margin-top: 26px;
+}
+
+.o2{
+	width: 200px;
+	height: 410px;
+
+	float: left;
+	margin-left: 50px;
+}
+.o2 img{
+	width: 200px;
+	margin-top: 0;
+}
+.o3{
+	width: 200px;
+	height: 410px;
+	float: left;
+	margin-left: 50px;
+}
+.o3 img{
+	width: 200px;
+	margin-top:28px;
+}
+
+
+/*-------------------------------*/
+.footer{
+	width: 1000px;
+	height: 108px;
+	background: #3E2708;
+}
+.help{
+	width: 800px;
+	height: 98px;
+/*	background: #E2A9AA;*/
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.help h2{
+	color:aliceblue;
+	text-align: center;
+}
+.help p{
+	
+	margin-left: 100px;
+}
+.help p a{
+	color: aliceblue;
+	text-decoration: none;
+	line-height: 3px;
+}
+.help p a:hover{
+	color: #EA3D40;
+	border: 2px solid #24C2BC;
+	border-width: thick;
+	margin-right: 60px;
+}
